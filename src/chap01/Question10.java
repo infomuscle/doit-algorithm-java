@@ -6,7 +6,6 @@ public class Question10 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
-
         System.out.println("a의 값 : ");
         int a = stdIn.nextInt();
 
