@@ -51,6 +51,10 @@ public class Question7 {
                 }
 
             }
+            System.out.print(cd + "진수로 ");
+            for (int i = dno - 1; i >= 0; i--) {
+                System.out.print(cno[i]);
+            }
             System.out.println("입니다.");
 
             System.out.print("한 번 더 할까요? (1.예/0.아니오) : ");
