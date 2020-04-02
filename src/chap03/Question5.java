@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Question5 {
 
-    public static int binSearch(int[] a, int n, int key) {
+    public static int binSearchX(int[] a, int n, int key) {
         int pl = 0;
         int pr = n-1;
         int pc;
@@ -45,7 +45,7 @@ public class Question5 {
         System.out.print("검색할 수 : ");
         int key = stdIn.nextInt();
 
-        int idx = binSearch(x, num, key);
+        int idx = binSearchX(x, num, key);
         if (idx == -1) {
             System.out.println("찾는 값이 없습니다.");
         } else {
