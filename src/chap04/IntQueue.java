@@ -58,10 +58,10 @@ public class IntQueue {
         return que[front];
     }
 
-    public int indexOf(int max) {
+    public int indexOf(int x) {
         for (int i = 0; i < num; i++) {
             int idx = (i + front) % max;
-            if (que[idx] == idx) {
+            if (que[idx] == x) {
                 return idx;
             }
         }
